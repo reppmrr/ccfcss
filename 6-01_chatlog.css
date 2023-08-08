@@ -1,0 +1,60 @@
+:root {
+    --line-clamp: 3;
+    --is-top: auto;
+    --width: 450px;
+    --background-color: rgb(30, 30, 30 ,0.9);
+    --background-padding: 8px 16px 8px 16px;
+    --border-width: 0px;
+    --border-color: rgb(30, 30, 30 ,0.9);
+    --border-radius: 16px;
+    --border-shadow: 0;
+    --font-size: 1.5rem;
+    --font-color: rgb(255, 255, 255);
+    --font-color-shadow: 0;
+    --font-color-success: rgb(33, 150, 243);
+    --font-color-success-shadow: 0;
+    --font-color-fail: rgb(245, 0, 87);
+    --font-color-fail-shadow: 0;
+  }
+
+/* DICELOG 表示 */
+/* Xを表示数に設定 */
+.MuiList-root>div:nth-child(1)>div>div>div:nth-last-child(-n+X) {
+    display: block !important;
+}
+
+/* keyframes設定 */
+.sc-cNKqjZ>div:nth-child(1)>div>div>div {
+  margin: 10px 10px 10px auto;
+}
+.MuiListItem-gutters {
+  animation-name: fadeIn, fadeOut;
+  animation-duration: 2s, 2s;
+  animation-delay: 0s, 7s;
+  animation-iteration-count: 1, 1;
+  animation-fill-mode: forwards,forwards;
+}
+
+/* ふわっと左からくるやつ */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* 右にふわっといくやつ */
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(150px);
+  }
+}
