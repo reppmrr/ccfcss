@@ -1,24 +1,28 @@
-:root {
-    --line-clamp: 3;
-    --is-top: auto;
-    --width: 450px;
-    --background-color: rgb(30, 30, 30 ,0.9);
-    --background-padding: 8px 16px 8px 16px;
-    --border-width: 0px;
-    --border-color: rgb(30, 30, 30 ,0.9);
-    --border-radius: 16px;
-    --border-shadow: 0;
-    --font-size: 1.5rem;
-    --font-color: rgb(255, 255, 255);
-    --font-color-shadow: 0;
-    --font-color-success: rgb(33, 150, 243);
-    --font-color-success-shadow: 0;
-    --font-color-fail: rgb(245, 0, 87);
-    --font-color-fail-shadow: 0;
-  }
+
+@import url(https://reppmrr.github.io/ccfcss/6-98_animation_fadeIn.css);
+@import url(https://reppmrr.github.io/ccfcss/6-00_chatlog.css);
 
 /* DICELOG 表示 */
 /* Xを表示数に設定 */
-.MuiList-root>div:nth-child(1)>div>div>div:nth-last-child(-n+X) {
+.MuiList-root>div:nth-child(1)>div>div>div:nth-last-child(-n+3) {
     display: block !important;
+}
+
+:root {
+  --line-clamp: 3;
+  --is-top: auto;
+  --width: 450px;
+  --background-color: rgb(30, 30, 30 ,0.9);
+  --background-padding: 8px 16px 8px 16px;
+  --border-width: 0px;
+  --border-color: rgb(30, 30, 30 ,0.9);
+  --border-radius: 16px;
+  --border-shadow: 0;
+  --font-size: 1.5rem;
+  --font-color: rgb(255, 255, 255);
+  --font-color-shadow: 0;
+  --font-color-success: rgb(33, 150, 243);
+  --font-color-success-shadow: 0;
+  --font-color-fail: rgb(245, 0, 87);
+  --font-color-fail-shadow: 0;
 }
