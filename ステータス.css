@@ -1,0 +1,25 @@
+/* スクロールバー削除 */
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+/* キャラアイコン削除 */
+.MuiBadge-root {
+  display: none;
+} 
+
+/* ステータス */
+.sc-hrZiYQ{
+  margin-left: 4px;
+  /* 全体の横幅→ステータスバー+20くらいが〇 */
+  /* ステータスバーの横幅の2倍以上にすれば横並びにできる */
+  max-width: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.sc-eZMymg{
+  /* ステータスバーの横幅 */
+  width: 80px;
+  position: relative;
+  cursor: pointer;
+}
