@@ -1,0 +1,101 @@
+/* URLに　/chat　を指定 */
+/* OBS */
+body {
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0px auto;
+    overflow: hidden;
+  }  
+  
+  /* 入力欄 */
+  form > div {
+    display: none !important;
+  }
+  /* header*/
+  header>.MuiToolbar-gutters,
+  ::-webkit-scrollbar {
+    display: none !important;
+  }
+  .MuiDrawer-root>.MuiPaper-root {
+    width: 100%;
+  }
+  hr {
+    display: none;
+  }
+    
+  .MuiListItem-root {
+    padding: var(--background-padding);
+    background: var(--background-color);
+    border: solid var(--border-width) var(--border-color);
+    border-radius: var(--border-radius);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    box-shadow: var(--border-shadow);
+    align-items: center;
+  }
+    
+  .MuiListItemAvatar-alignItemsFlexStart {
+    margin: 0px;
+  }
+    
+  .MuiListItemAvatar-root>div {
+    background: transparent;
+  }
+  
+  .MuiPaper-root {
+    background-color: transparent;
+  }
+
+  .MuiTypography-body2 {
+    font-size: var(--font-size)
+  }
+
+  .MuiList-root>div:nth-child(1)>div>div {
+    height: 50vh !important;
+  }
+  .MuiList-root>div:nth-child(1)>div>div>div {
+    display: none;
+    height: auto !important;
+    min-height: auto !important;
+    width: var(--width) !important;
+    position: static !important;
+    flex-shrink: 0;
+    margin: 10px;
+  }
+
+  .MuiListItemText-root {
+    overflow: hidden;
+  }
+    
+  p.MuiTypography-root,
+  .MuiTypography-colorTextSecondary {
+    color: var(--font-color);
+    text-shadow: var(--font-color-shadow);
+  }
+    
+  p.MuiTypography-root {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--line-clamp);
+  }
+  
+  .MuiTypography-colorPrimary {
+    color: var(--font-color-success);
+    text-shadow: var(--font-color-success-shadow);
+  }
+    
+  .MuiTypography-colorSecondary {
+    color: var(--font-color-fail);
+    text-shadow: var(--font-color-fail-shadow);
+  }
+  
+  .MuiListItemText-primary {
+    display: none;
+  }
+  
+  .MuiListItemText-primary,
+  .MuiTypography-caption {
+    color: var(--font-color);
+    text-shadow: var(--font-color-shadow);
+  }
