@@ -1,0 +1,68 @@
+body {
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+/* 各要素削除 */
+div[open],
+.MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorDefault.MuiPaper-elevation0+div,
+div[tabindex="0"]>div:nth-child(1),
+.MuiButtonBase-root+div+div:not(.MuiPaper-root),
+.MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded+div,
+.MuiDrawer-root.MuiDrawer-docked,
+[role="presentation"],
+header>.MuiToolbar-gutters,
+div[tabindex="0"]>div:nth-child(3),
+.MuiButtonBase-root+div,
+.MuiButtonBase-root.MuiFab-root,
+.MuiSnackbar-root,
+.MuiPaper-elevation5,
+::-webkit-scrollbar {
+  display: none !important;
+}
+div[tabindex="0"] {
+  width: 100% !important;
+}
+
+/* 全体の設定 */
+.MuiPaper-root {
+  max-width: 800px;
+  background-color: transparent;
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+}
+
+/* タイトル */
+.MuiTypography-subtitle2,
+.MuiTypography-body2 {
+  font-size: 1.8rem;
+}
+.MuiToolbar-gutters {
+  padding: 12px 24px;
+}
+
+/* ログ */
+.MuiTypography-body1 {
+  background-color:  transparent;
+  font-size: 2.1rem;
+}
+.MuiToolbar-root+div {
+  padding: 0px 24px 16px;
+  height: 160px;
+}
+
+/* アイコン等削除 */
+.MuiIconButton-label {
+  display: none;
+}
+.MuiIconButton-edgeEnd {
+  display: none;
+}
+.MuiPaper-root>img {
+  display: none;
+}
+/* ダイス画像削除 */
+.sc-bKhNmF{
+  display: none;
+}
