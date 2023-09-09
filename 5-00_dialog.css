@@ -25,16 +25,13 @@ div[tabindex="0"] {
   width: 100% !important;
 }
 
+
 /* 全体の設定 */
 .MuiPaper-root {
-/* 横幅                ↓ */
-  max-width: 1080px;
-/* 背景色透過          ↓ */
-/*  background-color: transparent; */
-/* 角を丸く            ↓ */
-/*  border-radius: 20px; */
-/* 文字色の変更        ↓ */
-/*  color: rgb(0, 0, 0); */
+  max-width: var(--max-width);
+  background-color: var(--background-color);
+  border-radius: 20px;
+  color: var(--color);
 }
 
 /* タイトル */
@@ -53,7 +50,7 @@ div[tabindex="0"] {
 }
 .MuiToolbar-root+div {
   padding: 0px 24px 16px;
-  height: 160px;
+  height: var(--height);
 }
 
 /* アイコン等削除 */
