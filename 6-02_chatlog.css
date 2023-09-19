@@ -1,7 +1,7 @@
 /* URLに　/chat　を指定 */
 /* OBS */
 body {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #00000000;
     margin: 0px auto;
     overflow: hidden;
   }  
@@ -99,3 +99,8 @@ body {
     color: var(--font-color);
     text-shadow: var(--font-color-shadow);
   }
+
+  /* 新ダイス演出削除 */
+.sc-bPPhlf{
+  display: none;
+}

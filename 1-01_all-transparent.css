@@ -47,3 +47,8 @@ div[tabindex="0"] {
   min-width: 720px;
   margin: 24px auto;
 }
+
+/* 新ダイス演出削除 */
+.sc-bPPhlf{
+  display: none;
+}

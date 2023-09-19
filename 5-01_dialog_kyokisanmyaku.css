@@ -60,7 +60,13 @@ body {
   .MuiPaper-root>img {
     display: none;
   }
-  /* ダイス画像削除 */
-  .sc-bKhNmF{
-    display: none;
-  }
+  
+/* ダイス画像削除 */
+.sc-kNjMHG{
+  display: none;
+}
+
+/* 新ダイス演出削除 */
+.sc-bPPhlf{
+  display: none;
+}

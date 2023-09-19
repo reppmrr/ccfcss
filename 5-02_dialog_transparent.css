@@ -63,6 +63,10 @@ div[tabindex="0"] {
   display: none;
 }
 /* ダイス画像削除 */
-.sc-bKhNmF{
+.sc-kNjMHG{
+  display: none;
+}
+/* 新ダイス演出削除 */
+.sc-bPPhlf{
   display: none;
 }

@@ -93,3 +93,8 @@ p.MuiTypography-root {
   color: var(--font-color);
   text-shadow: var(--font-color-shadow);
 }
+
+/* 新ダイス演出削除 */
+.sc-bPPhlf{
+  display: none;
+}
