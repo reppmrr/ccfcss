@@ -1,0 +1,63 @@
+body {
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+/***************
+   各要素削除
+***************/
+/* カットイン */
+div[open],
+/* 背景 */
+.MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorDefault.MuiPaper-elevation0+div,
+/* 前景 */
+div.sc-hpDagy.jhpqTt > div > div > div > div > div:nth-child(1),
+/* スクリーンパネル */
+.bpLbnn,
+.kXXakK,
+/* マーカーパネル */
+.hFkqGX,
+.jwKdFG,
+/* キャラ */
+.MuiButtonBase-root+div+div,
+.MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded+div,
+.eoagMX,
+/* チャット */
+.MuiDrawer-root.MuiDrawer-docked,
+/* 吹き出し */
+.MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded,
+/* モーダル */
+[role="presentation"],
+/* ヘッダー */
+header>.MuiToolbar-gutters,
+/* 音量 */
+div[tabindex="0"]>div:nth-child(3),
+/* 拡大縮小 */
+.MuiButtonBase-root+div,
+/* 鉛筆ボタン */
+.MuiButtonBase-root.MuiFab-root,
+/* 監視モード */
+.MuiSnackbar-root,
+/* スクロールバー */
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+/* 盤面 */
+div[tabindex="0"] {
+  width: 100% !important;
+}
+
+/* ポップアップ */
+[role="tooltip"] * {
+  font-size: 21px !important;
+  max-width: 1280px;
+  min-width: 720px;
+  margin: 24px auto;
+}
+
+/* 新ダイス演出削除 */
+.sc-bPPhlf{
+  display: none;
+}
