@@ -47,6 +47,10 @@
     display: none;
 } 
 
+.sc-hjriPb{
+  display: none;
+}
+
 .MuiList-root>div:nth-child(1)>div>div>div:nth-last-child(-n+15) {
     display: block !important;
 }
