@@ -20,13 +20,11 @@ div.sc-hpDagy.jhpqTt > div > div > div > div > div:nth-child(1),
 .hFkqGX,
 .jwKdFG,
 /* キャラ */
-.MuiButtonBase-root+div+div,
-.MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded+div,
-.eoagMX,
+.sc-bwcYJz,
 /* チャット */
 .MuiDrawer-root.MuiDrawer-docked,
 /* 吹き出し */
-.MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded,
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded,
 /* モーダル */
 [role="presentation"],
 /* ヘッダー */
@@ -34,7 +32,7 @@ header>.MuiToolbar-gutters,
 /* 音量 */
 div[tabindex="0"]>div:nth-child(3),
 /* 拡大縮小 */
-.MuiButtonBase-root+div,
+.sc-bnFUNX,
 /* 鉛筆ボタン */
 .MuiButtonBase-root.MuiFab-root,
 /* 監視モード */
@@ -58,6 +56,6 @@ div[tabindex="0"] {
 }
 
 /* 新ダイス演出削除 */
-.sc-bPPhlf{
+.sc-iEFAjD{
   display: none;
 }

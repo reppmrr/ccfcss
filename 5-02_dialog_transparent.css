@@ -8,13 +8,12 @@ body {
 div[open],
 .MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorDefault.MuiPaper-elevation0+div,
 div[tabindex="0"]>div:nth-child(1),
-.MuiButtonBase-root+div+div:not(.MuiPaper-root),
-.MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded+div,
+.sc-bwcYJz,
 .MuiDrawer-root.MuiDrawer-docked,
 [role="presentation"],
 header>.MuiToolbar-gutters,
 div[tabindex="0"]>div:nth-child(3),
-.MuiButtonBase-root+div,
+.sc-bnFUNX,
 .MuiButtonBase-root.MuiFab-root,
 .MuiSnackbar-root,
 .MuiPaper-elevation5,
@@ -63,10 +62,10 @@ div[tabindex="0"] {
   display: none;
 }
 /* ダイス画像削除 */
-.sc-kNjMHG{
+.sc-cApUKG{
   display: none;
 }
 /* 新ダイス演出削除 */
-.sc-bPPhlf{
+.sc-iEFAjD{
   display: none;
 }

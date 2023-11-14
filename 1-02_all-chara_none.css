@@ -12,12 +12,11 @@ div[open],
 /* 背景 */
 .MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorDefault.MuiPaper-elevation0+div,
 /* キャラ */
-.MuiButtonBase-root+div+div,
-.MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded+div,
+.sc-bwcYJz,
 /* チャット */
 .MuiDrawer-root.MuiDrawer-docked,
 /* 吹き出し */
-.MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded,
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded,
 /* モーダル */
 [role="presentation"],
 /* ヘッダー */
@@ -25,7 +24,7 @@ header>.MuiToolbar-gutters,
 /* 音量 */
 div[tabindex="0"]>div:nth-child(3),
 /* 拡大縮小 */
-.MuiButtonBase-root+div,
+.sc-bnFUNX,
 /* 鉛筆ボタン */
 .MuiButtonBase-root.MuiFab-root,
 /* 監視モード */
@@ -53,7 +52,7 @@ div[tabindex="0"] {
   display: none;
 }
 
-/* キャラクター */
-.sc-dvwKko{
+/* 新ダイス演出削除 */
+.sc-iEFAjD{
   display: none;
 }
