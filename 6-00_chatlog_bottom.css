@@ -47,13 +47,24 @@ hr {
   background-color: transparent;
 }
 
-/*下揃え*/
-.MuiList-root {
-  width: var(--width) !important;
-}
-.MuiList-root>div:nth-child(1)>div>div>div {
-  display: none;
-} 
+  .MuiList-root>div:nth-child(1)>div>div>div {
+    display: none;
+    height: auto !important;
+    min-height: auto !important;
+    width: var(--width) !important;
+    flex-shrink: 0;
+    top: 0 !important;
+    position: relative !important;
+    margin: 10px;
+  }
+
+.MuiList-root>div:nth-child(1)>div>div {
+    height: 50vh !important;
+    position: absolute !important;
+    top: 0 !important;
+    bottom: auto !important;
+  }
+
 .MuiTypography-body2 {
   font-size: var(--font-size)
 }

@@ -1,9 +1,8 @@
 
-@import url(https://reppmrr.github.io/ccfcss/6-00_chatlog.css);
+@import url(https://reppmrr.github.io/ccfcss/6-00_chatlog_bottom.css);
 
 :root {
     --line-clamp: 5;
-    --is-top: 0;
     --width: 450px;
     --background-color: rgb(255, 255, 255);
     --background-padding: 4px 16px 4px 16px;
@@ -48,6 +47,10 @@
 } 
 
 .sc-hjriPb{
+  display: none;
+}
+
+.sc-kizEcT{
   display: none;
 }
 
