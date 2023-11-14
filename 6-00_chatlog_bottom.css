@@ -61,8 +61,8 @@ hr {
 .MuiList-root>div:nth-child(1)>div>div {
     height: 50vh !important;
     position: absolute !important;
-    top: 0 !important;
-    bottom: auto !important;
+    top: auto !important;
+    bottom: 0 !important;
   }
 
 .MuiTypography-body2 {
