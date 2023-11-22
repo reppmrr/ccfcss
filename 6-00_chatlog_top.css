@@ -34,11 +34,11 @@ body {
     box-shadow: var(--border-shadow);
     align-items: center;
   }
-    
+ 
   .MuiListItemAvatar-alignItemsFlexStart {
-    margin: 0px;
+    position: absolute;
   }
-    
+  
   .MuiListItemAvatar-root>div {
     background: transparent;
   }
@@ -51,8 +51,8 @@ body {
     font-size: var(--font-size)
   }
 
-  .MuiList-root>div:nth-child(1)>div>div {
-    height: 50vh !important;
+  .MuiList-root>div>div>div:nth-child(1)>div>div {
+    height: auto !important;
   }
   .MuiList-root>div:nth-child(1)>div>div>div {
     display: none;
@@ -62,6 +62,10 @@ body {
     position: static !important;
     flex-shrink: 0;
     margin: 10px;
+  }
+
+  .MuiListItemText-multiline{
+    padding: 0px 0px 0px 60px;
   }
 
   .MuiListItemText-root {

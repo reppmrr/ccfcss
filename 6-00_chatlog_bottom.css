@@ -36,7 +36,7 @@ hr {
 }
   
 .MuiListItemAvatar-alignItemsFlexStart {
-  margin: 0px;
+  position: absolute;
 }
   
 .MuiListItemAvatar-root>div {
@@ -47,7 +47,7 @@ hr {
   background-color: transparent;
 }
 
-  .MuiList-root>div:nth-child(1)>div>div>div {
+.MuiList-root>div:nth-child(1)>div>div>div {
     display: none;
     height: auto !important;
     min-height: auto !important;
@@ -58,8 +58,8 @@ hr {
     margin: 10px;
   }
 
-.MuiList-root>div:nth-child(1)>div>div {
-    height: 50vh !important;
+  .MuiList-root>div>div>div:nth-child(1)>div>div {
+    height: auto !important;
     position: absolute !important;
     top: auto !important;
     bottom: 0 !important;
@@ -67,6 +67,10 @@ hr {
 
 .MuiTypography-body2 {
   font-size: var(--font-size)
+}
+
+.MuiListItemText-multiline{
+  padding: 0px 0px 0px 60px;
 }
   
 .MuiListItemText-root {

@@ -54,7 +54,7 @@
   display: none;
 }
 
-.MuiList-root>div:nth-child(1)>div>div>div:nth-last-child(-n+15) {
+.MuiList-root>div>div>div:nth-last-child(-n+15)>div:nth-last-child(-n+15) {
     display: block !important;
 }
   /* アニメーション */
