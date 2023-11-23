@@ -25,17 +25,28 @@ div[tabindex="0"] {
 }
 
 /* 全体の設定 */
-.MuiPaper-root {
-  max-width: 800px;
-  background-color: transparent;
-  border-radius: 20px;
-  color: rgb(0, 0, 0);
+.MuiPaper-elevation1,
+.MuiPaper-rounded:nth-child(2) {
+  width: var(--max-width) !important;
+  background: var(--background-color) !important;
+  border-radius: 20px !important;
+  position: absolute !important;
+  bottom: 10px !important;
+}
+.MuiPaper-elevation1,
+.MuiPaper-rounded:first-child {
+  background-color: rgba(0, 0, 0, 0);
+  padding-top: 0px !important;
+  border: none !important;
+}
+.MuiPaper-elevation1 {
+  box-shadow: none !important;
 }
 
 /* タイトル */
-.MuiTypography-subtitle2,
-.MuiTypography-body2 {
-  font-size: 1.8rem;
+.MuiTypography-subtitle2{
+  color: var(--color) !important;
+  font-size: 2rem !important;
 }
 .MuiToolbar-gutters {
   padding: 12px 24px;
@@ -44,11 +55,12 @@ div[tabindex="0"] {
 /* ログ */
 .MuiTypography-body1 {
   background-color:  transparent;
+  color: var(--color);
   font-size: 2.1rem;
 }
 .MuiToolbar-root+div {
   padding: 0px 24px 16px;
-  height: 160px;
+  height: var(--height);
 }
 
 /* アイコン等削除 */
@@ -61,11 +73,9 @@ div[tabindex="0"] {
 .MuiPaper-root>img {
   display: none;
 }
+
 /* ダイス画像削除 */
-.sc-cApUKG{
-  display: none;
-}
-/* 新ダイス演出削除 */
+.sc-cApUKG,
 .sc-iEFAjD{
   display: none;
 }
