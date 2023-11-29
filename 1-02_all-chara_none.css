@@ -12,8 +12,8 @@ div[open],
 /* 背景 */
 .MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorDefault.MuiPaper-elevation0+div,
 /* キャラ */
-.sc-bwcYJz,
-.sc-bUQxUO.jJLyMs,
+.sc-enrYGu,
+.sc-bUQxUO,
 /* チャット */
 .MuiDrawer-root.MuiDrawer-docked,
 /* 吹き出し */
@@ -25,7 +25,7 @@ header>.MuiToolbar-gutters,
 /* 音量 */
 div[tabindex="0"]>div:nth-child(3),
 /* 拡大縮小 */
-.sc-bnFUNX,
+.sc-cxyaiY,
 /* 鉛筆ボタン */
 .MuiButtonBase-root.MuiFab-root,
 /* 監視モード */
