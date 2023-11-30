@@ -62,12 +62,9 @@ div[tabindex="0"] {
 .MuiPaper-root>img {
   display: none;
 }
-/* ダイス画像削除 */
-.sc-cApUKG{
-  display: none;
-}
 
-/* 新ダイス演出削除 */
+/* ダイス画像削除 */
+.sc-gswEsP,
 .sc-iEFAjD{
   display: none;
 }

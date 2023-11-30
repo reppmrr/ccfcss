@@ -38,7 +38,9 @@ div[tabindex="0"]>div:nth-child(3),
 /* 監視モード */
 .MuiSnackbar-root,
 /* スクロールバー */
-::-webkit-scrollbar {
+::-webkit-scrollbar,
+/* 新ダイス演出削除 */
+.sc-gErihQ {
   display: none !important;
 }
 
@@ -53,9 +55,4 @@ div[tabindex="0"] {
   max-width: 1280px;
   min-width: 720px;
   margin: 24px auto;
-}
-
-/* 新ダイス演出削除 */
-.sc-iEFAjD{
-  display: none;
 }
