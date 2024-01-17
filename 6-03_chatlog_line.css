@@ -37,9 +37,9 @@
     overflow: hidden;
     margin: 0;
     padding: 8px 4px;
-    margin-top: 0px;
-    margin-left: -45px;
-    margin-bottom: 0px;
+    top: 0px;
+    left: -45px;
+    bottom: 0px;
 }
 
 .sc-lkwKjF {
