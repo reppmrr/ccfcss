@@ -12,7 +12,7 @@ div[open],
 /* 盤面 */
 div[tabindex="0"]>div:nth-child(1),
 /* キャラ */
-.sc-enrYGu,
+.sc-jcsPWJ,
 /* チャット */
 .MuiDrawer-root.MuiDrawer-docked,
 /* 吹き出し */
@@ -24,15 +24,13 @@ header>.MuiToolbar-gutters,
 /* 音量 */
 div[tabindex="0"]>div:nth-child(3),
 /* 拡大縮小 */
-.sc-cxyaiY,
+.sc-hcmsOB,
 /* 鉛筆ボタン */
 .MuiButtonBase-root.MuiFab-root,
 /* 監視モード */
 .MuiSnackbar-root,
 /* スクロールバー */
-::-webkit-scrollbar,
-/* 新ダイス演出削除 */
-.sc-gErihQ {
+::-webkit-scrollbar{
   display: none !important;
 }
 

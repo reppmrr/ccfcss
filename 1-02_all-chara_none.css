@@ -12,8 +12,8 @@ div[open],
 /* 背景 */
 .MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorDefault.MuiPaper-elevation0+div,
 /* キャラ */
-.sc-enrYGu,
-.sc-bUQxUO,
+.sc-jcsPWJ,
+.sc-eWnSBu,
 /* チャット */
 .MuiDrawer-root.MuiDrawer-docked,
 /* 吹き出し */
@@ -25,15 +25,13 @@ header>.MuiToolbar-gutters,
 /* 音量 */
 div[tabindex="0"]>div:nth-child(3),
 /* 拡大縮小 */
-.sc-cxyaiY,
+.sc-hcmsOB,
 /* 鉛筆ボタン */
 .MuiButtonBase-root.MuiFab-root,
 /* 監視モード */
 .MuiSnackbar-root,
 /* スクロールバー */
-::-webkit-scrollbar,
-/* 新ダイス演出削除 */
-.sc-gErihQ {
+::-webkit-scrollbar{
   display: none !important;
 }
 
