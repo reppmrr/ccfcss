@@ -54,6 +54,10 @@
   display: none;
 }
 
+.sc-hkeOhL{
+  display: none;
+}
+
 .MuiList-root>div>div>div:nth-last-child(-n+15)>div:nth-last-child(-n+15) {
     display: block !important;
 }
