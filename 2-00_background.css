@@ -11,8 +11,6 @@ body {
 div[open],
 /* 盤面 */
 div[tabindex="0"]>div:nth-child(1),
-/* キャラ */
-.sc-fkmgoA,
 /* チャット */
 .MuiDrawer-root.MuiDrawer-docked,
 /* 吹き出し */

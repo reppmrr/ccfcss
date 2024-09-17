@@ -1,5 +1,5 @@
 /**************
-https://ccfolia.com/rooms/部屋ID/character/キャラID　を指定
+https://ccfolia.com/rooms/部屋ID/characters/キャラID　を指定
 **************/
 /* スクロールバー削除 */
 ::-webkit-scrollbar {
@@ -12,7 +12,7 @@ https://ccfolia.com/rooms/部屋ID/character/キャラID　を指定
 } 
 
 /* ステータス */
-.sc-hrcbEV{
+.sc-bhrzSY{
   margin-left: 4px;
   /* 全体の横幅→ステータスバー+20くらいが〇 */
   /* ステータスバーの横幅の2倍以上にすれば横並びにできる */
@@ -20,7 +20,7 @@ https://ccfolia.com/rooms/部屋ID/character/キャラID　を指定
   display: flex;
   flex-wrap: wrap;
 }
-.sc-eQxmfS{
+.sc-CVHzY{
   /* ステータスバーの横幅 */
   width: 80px;
   position: relative;

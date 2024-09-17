@@ -13,10 +13,10 @@ div[open],
 .MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorDefault.MuiPaper-elevation0+div,
 /* 前景 */
 div.sc-iIgkCN.LYjqy > div > div:nth-child(1),
-/* スクリーンパネル */
-.movable.react-draggable,
+/* パネル */
+.sc-ByBgr,
 /* キャラ */
-.sc-fkmgoA,
+.sc-ljpcOE,
 /* チャット */
 .MuiDrawer-root.MuiDrawer-docked,
 /* 吹き出し */
@@ -26,9 +26,9 @@ div.sc-iIgkCN.LYjqy > div > div:nth-child(1),
 /* ヘッダー */
 header>.MuiToolbar-gutters,
 /* 音量 */
-div[tabindex="0"]>div:nth-child(3),
+.sc-bwcYJz,
 /* 拡大縮小 */
-.sc-ojjjp,
+.sc-enTruF,
 /* 鉛筆ボタン */
 .MuiButtonBase-root.MuiFab-root,
 /* 監視モード */
