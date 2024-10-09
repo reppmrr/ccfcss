@@ -12,7 +12,7 @@ body {
 /* 盤面 */
 div[tabindex="0"]>div:nth-child(1),
 /* キャラ */
-.sc-fkmgoA,
+.sc-ljpcOE,
 /* チャット */
 .MuiDrawer-root.MuiDrawer-docked,
 /* 吹き出し */
@@ -22,9 +22,9 @@ div[tabindex="0"]>div:nth-child(1),
 /* ヘッダー */
 header>.MuiToolbar-gutters,
 /* 音量 */
-div[tabindex="0"]>div:nth-child(3),
+.sc-bwcYJz,
 /* 拡大縮小 */
-.sc-ojjjp,
+.sc-enTruF,
 /* 鉛筆ボタン */
 .MuiButtonBase-root.MuiFab-root,
 /* 監視モード */
