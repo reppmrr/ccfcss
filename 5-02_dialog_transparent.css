@@ -24,29 +24,22 @@ div[tabindex="0"] {
   width: 100% !important;
 }
 
+
 /* 全体の設定 */
-.MuiPaper-elevation1,
-.MuiPaper-rounded:nth-child(2) {
-  width: var(--max-width) !important;
-  background: var(--background-color) !important;
-  border-radius: 20px !important;
-  position: absolute !important;
-  bottom: 10px !important;
-}
-.MuiPaper-elevation1,
-.MuiPaper-rounded:first-child {
+.MuiPaper-root {
+  max-width: var(--max-width);
+  background: none;
   background-color: rgba(0, 0, 0, 0);
-  padding-top: 0px !important;
-  border: none !important;
-}
-.MuiPaper-elevation1 {
-  box-shadow: none !important;
+  background-image: none;
+  box-shadow: 0;
+  border: 0;
+  color: var(--color);
 }
 
 /* タイトル */
-.MuiTypography-subtitle2{
-  color: var(--color) !important;
-  font-size: 2rem !important;
+.MuiTypography-subtitle2,
+.MuiTypography-body2 {
+  font-size: 1.8rem;
 }
 .MuiToolbar-gutters {
   padding: 12px 24px;
@@ -55,7 +48,6 @@ div[tabindex="0"] {
 /* ログ */
 .MuiTypography-body1 {
   background-color:  transparent;
-  color: var(--color);
   font-size: 2.1rem;
 }
 .MuiToolbar-root+div {
@@ -75,6 +67,6 @@ div[tabindex="0"] {
 }
 
 /* ダイス画像削除 */
-.sc-hxyzrr{
+.sc-enTruF{
   display: none;
 }

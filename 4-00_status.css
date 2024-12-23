@@ -1,28 +1,57 @@
 /**************
 https://ccfolia.com/rooms/部屋ID/characters/キャラID　を指定
 **************/
+:root {
+  --status-background: var(--background-color, rgb(245, 245, 245));
+  --status-color: rgb(66, 66, 66);
+}
+
+body.transparent {
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0px auto;
+  overflow: hidden;
+}
+
 /* スクロールバー削除 */
 ::-webkit-scrollbar {
   display: none !important;
 }
 
 /* キャラアイコン削除 */
+.MuiAvatar-root,
 .MuiBadge-root {
   display: none;
 } 
 
-/* ステータス */
-.sc-bhrzSY{
-  margin-left: 4px;
-  /* 全体の横幅→ステータスバー+20くらいが〇 */
-  /* ステータスバーの横幅の2倍以上にすれば横並びにできる */
-  max-width: 100px;
-  display: flex;
-  flex-wrap: wrap;
+/* ステータス 大枠 */
+[variant="bar"] {
+  max-width: calc(250px + (40px, 0px)*2 + 8px);
 }
-.sc-CVHzY{
-  /* ステータスバーの横幅 */
-  width: 80px;
-  position: relative;
-  cursor: pointer;
+
+/* ステータス毎 大枠 */
+[variant="bar"]>div {
+  height: 50px;
+  width: 250px;
+  overflow: hidden;
+}
+
+/* ステータス 背景 大枠 */
+[variant="bar"]>div>div {
+  height: 50px;
+  width: 250px;
+}
+
+/* ステータス 背景 */
+[variant="bar"]>div>div:nth-child(2)>div {
+  height: 50px;
+  background: var(--status-background);
+}
+
+/* テキスト */
+.MuiTypography-body2 {
+  font-size: 2rem;;
+  color: var(--status-color);
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }
