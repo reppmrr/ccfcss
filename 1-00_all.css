@@ -1,3 +1,7 @@
+/***************
+  盤面全体
+***************/
+
 body {
   background-color: rgba(0, 0, 0, 0);
   margin: 0px auto;
@@ -30,7 +34,7 @@ header>.MuiToolbar-gutters,
 /* スクロールバー */
 ::-webkit-scrollbar,
 /* 新ダイス演出削除 */
-.sc-gErihQ {
+.sc-gJFncE {
   display: none !important;
 }
 

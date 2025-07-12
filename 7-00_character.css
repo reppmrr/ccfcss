@@ -13,8 +13,11 @@ div[open],
 .MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorDefault.MuiPaper-elevation0+div,
 /* 前景 */
 div.sc-iIgkCN.LYjqy > div > div:nth-child(1),
-/* パネル */
-.sc-ByBgr,
+div.sc-clGGjC.gNfMrB > div > div:nth-child(1),
+/* スクリーンパネル */
+.sc-fTZqFM,
+/* マーカーパネル */
+.sc-fTFLve,
 /* キャラ */
 .sc-juNKnw,
 /* チャット */
@@ -34,7 +37,9 @@ header>.MuiToolbar-gutters,
 /* 監視モード */
 .MuiSnackbar-root,
 /* スクロールバー */
-::-webkit-scrollbar{
+::-webkit-scrollbar,
+/* 新ダイス演出削除 */
+.sc-gJFncE {
   display: none !important;
 }
 

@@ -17,7 +17,8 @@ body {
   .MuiButtonBase-root.MuiFab-root,
   .MuiSnackbar-root,
   .MuiPaper-elevation5,
-  ::-webkit-scrollbar {
+  ::-webkit-scrollbar,
+  .sc-gJFncE {
     display: none !important;
   }
   div[tabindex="0"] {
