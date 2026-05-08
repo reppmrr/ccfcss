@@ -2,8 +2,11 @@
 https://ccfolia.com/rooms/部屋ID/characters/キャラID　を指定
 **************/
 :root {
-  --status-background: var(--background-color, rgb(245, 245, 245));
-  --status-color: rgb(66, 66, 66);
+    --status-column: 1;
+    --status-height: 50px;
+    --status-width: 250px;
+    --status-background: var(--background-color, rgb(245, 245, 245));
+    --status-font-color: rgb(66, 66, 66);
 }
 
 body.transparent {
@@ -23,27 +26,21 @@ body.transparent {
   display: none;
 } 
 
-/* ステータス 大枠 */
+/* ステータス 全体 */
 [variant="bar"] {
-  max-width: calc(250px + (40px, 0px)*2 + 8px);
+  max-width: 280px;
 }
 
-/* ステータス毎 大枠 */
+/* ステータス 個別 */
 [variant="bar"]>div {
   height: 50px;
-  width: 250px;
+  width: 350px;
   overflow: hidden;
-}
-
-/* ステータス 背景 大枠 */
-[variant="bar"]>div>div {
-  height: 50px;
-  width: 250px;
 }
 
 /* ステータス 背景 */
 [variant="bar"]>div>div:nth-child(2)>div {
-  height: 50px;
+  height: var(--status-height);
   background: var(--status-background);
 }
 
@@ -54,4 +51,5 @@ body.transparent {
   display: flex;
   align-items: center;
   padding: 10px;
+  flex-shrink: 1;
 }

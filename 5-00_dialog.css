@@ -8,12 +8,15 @@ body {
 div[open],
 .MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorDefault.MuiPaper-elevation0+div,
 div[tabindex="0"]>div:nth-child(1),
-.sc-yECoe,
+/* キャラ */
+.sc-hRUGMy,
 .MuiDrawer-root.MuiDrawer-docked,
 [role="presentation"],
 header>.MuiToolbar-gutters,
-.sc-cxyaiY,
-.sc-cKhha-d,
+/* 音量 */
+.sc-iQQMCJ,
+/* 拡大縮小 */
+.sc-gLwkzN,
 .MuiButtonBase-root.MuiFab-root,
 .MuiSnackbar-root,
 .MuiPaper-elevation5,
@@ -61,10 +64,5 @@ div[tabindex="0"] {
   display: none;
 }
 .MuiPaper-root>img {
-  display: none;
-}
-
-/* ダイス画像削除 */
-.sc-enTruF{
   display: none;
 }
