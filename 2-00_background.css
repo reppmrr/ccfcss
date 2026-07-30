@@ -1,6 +1,6 @@
-/***************
-  背景のみ
-***************/
+/*******************
+  背景画像のみ表示
+*******************/
 
 body {
   background-color: rgba(0, 0, 0, 0);
@@ -15,8 +15,8 @@ body {
 div[open],
 /* 盤面 */
 div[tabindex="0"]>div:nth-child(1),
-/* キャラ */
-.sc-czNwxL,
+/* キャラステータス */
+.sc-hRUGMy,
 /* チャット */
 .MuiDrawer-root.MuiDrawer-docked,
 /* 吹き出し */
@@ -26,18 +26,19 @@ div[tabindex="0"]>div:nth-child(1),
 /* ヘッダー */
 header>.MuiToolbar-gutters,
 /* 音量 */
-.sc-ainBi,
+.sc-gLwkzN,
+/* 複数選択 */
+.sc-dfqpHw,
 /* 拡大縮小 */
-.sc-gwWxZU,
-.sc-eBiPqj,
+.sc-eSoXjr,
 /* 鉛筆ボタン */
 .MuiButtonBase-root.MuiFab-root,
 /* 監視モード */
 .MuiSnackbar-root,
-/* スクロールバー */
-::-webkit-scrollbar,
 /* 新ダイス演出削除 */
-.sc-gJFncE {
+.sc-bJqgre
+/* スクロールバー */
+::-webkit-scrollbar{
   display: none !important;
 }
 

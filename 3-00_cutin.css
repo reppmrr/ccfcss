@@ -1,6 +1,6 @@
-/***************
-  カットインのみ
-***************/
+/*******************
+  カットインのみ表示
+*******************/
 
 body {
   background-color: rgba(0, 0, 0, 0);
@@ -15,8 +15,8 @@ body {
 .MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorDefault.MuiPaper-elevation0+div,
 /* 盤面 */
 div[tabindex="0"]>div:nth-child(1),
-/* キャラ */
-.sc-czNwxL,
+/* キャラステータス */
+.sc-hRUGMy,
 /* チャット */
 .MuiDrawer-root.MuiDrawer-docked,
 /* 吹き出し */
@@ -26,10 +26,11 @@ div[tabindex="0"]>div:nth-child(1),
 /* ヘッダー */
 header>.MuiToolbar-gutters,
 /* 音量 */
-.sc-ainBi,
+.sc-gLwkzN,
+/* 複数選択 */
+.sc-dfqpHw,
 /* 拡大縮小 */
-.sc-gwWxZU,
-.sc-eBiPqj,
+.sc-eSoXjr,
 /* 鉛筆ボタン */
 .MuiButtonBase-root.MuiFab-root,
 /* 監視モード */
@@ -39,7 +40,7 @@ header>.MuiToolbar-gutters,
 /* スクロールバー */
 ::-webkit-scrollbar,
 /* 新ダイス演出削除 */
-.sc-gJFncE {
+.sc-bJqgre {
   display: none !important;
 }
 

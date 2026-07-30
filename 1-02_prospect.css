@@ -1,5 +1,5 @@
 /***************
-  前景のみ
+  前景のみ表示
 ***************/
 
 body {
@@ -17,8 +17,8 @@ div[open],
 .MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorDefault.MuiPaper-elevation0+div,
 /* パネル類 */
 .sc-jcsPWJ,
-/* キャラ */
-.sc-czNwxL,
+/* キャラステータス */
+.sc-hRUGMy,
 /* チャット */
 .MuiDrawer-root.MuiDrawer-docked,
 /* 吹き出し */
@@ -28,10 +28,11 @@ div[open],
 /* ヘッダー */
 header>.MuiToolbar-gutters,
 /* 音量 */
-.sc-ainBi,
+.sc-gLwkzN,
+/* 複数選択 */
+.sc-dfqpHw,
 /* 拡大縮小 */
-.sc-gwWxZU,
-.sc-eBiPqj,
+.sc-eSoXjr,
 /* 鉛筆ボタン */
 .MuiButtonBase-root.MuiFab-root,
 /* 監視モード */
@@ -39,7 +40,7 @@ header>.MuiToolbar-gutters,
 /* スクロールバー */
 ::-webkit-scrollbarr,
 /* 新ダイス演出削除 */
-.sc-gJFncE {
+.sc-bJqgre {
   display: none !important;
 }
 

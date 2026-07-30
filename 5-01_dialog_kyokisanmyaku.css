@@ -8,21 +8,23 @@ body {
   div[open],
   .MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorDefault.MuiPaper-elevation0+div,
   div[tabindex="0"]>div:nth-child(1),
-/* キャラ */
-.sc-czNwxL,
+/* キャラステータス */
+.sc-hRUGMy,
   .MuiDrawer-root.MuiDrawer-docked,
   [role="presentation"],
   header>.MuiToolbar-gutters,
- /* 音量 */
-.sc-ainBi,
+/* 音量 */
+.sc-gLwkzN,
+/* 複数選択 */
+.sc-dfqpHw,
 /* 拡大縮小 */
-.sc-gwWxZU,
-.sc-eBiPqj,
+.sc-eSoXjr,
   .MuiButtonBase-root.MuiFab-root,
   .MuiSnackbar-root,
   .MuiPaper-elevation5,
   ::-webkit-scrollbar,
-  .sc-gJFncE {
+/* 新ダイス演出削除 */
+.sc-bJqgre {
     display: none !important;
   }
   div[tabindex="0"] {
