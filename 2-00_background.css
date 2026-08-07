@@ -35,10 +35,10 @@ header>.MuiToolbar-gutters,
 .MuiButtonBase-root.MuiFab-root,
 /* 監視モード */
 .MuiSnackbar-root,
-/* 新ダイス演出削除 */
-.sc-bJqgre
 /* スクロールバー */
-::-webkit-scrollbar{
+::-webkit-scrollbar,
+/* 新ダイス演出削除 */
+.sc-bJqgre {
   display: none !important;
 }
 
